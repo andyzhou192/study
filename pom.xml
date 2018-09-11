@@ -1,0 +1,60 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>net.andy</groupId>
+	<artifactId>study</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<dependencies>
+		<!-- Jedis开始 -->
+		<dependency>
+			<groupId>redis.clients</groupId>
+			<artifactId>jedis</artifactId>
+			<version>2.9.0</version>
+		</dependency>
+		<!-- Jedis结束 -->
+		
+		<!-- Netty开始 -->
+		<!-- https://mvnrepository.com/artifact/io.netty/netty-all -->
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-all</artifactId>
+			<version>4.1.6.Final</version>
+		</dependency>
+		<!-- Netty结束 -->
+		<!-- guava工具类 -->
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>20.0</version>
+		</dependency>
+		<!-- Quartz任务调度框架[http://www.quartz-scheduler.org/] -->
+		<dependency>
+			<groupId>org.quartz-scheduler</groupId>
+			<artifactId>quartz</artifactId>
+			<version>2.2.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.quartz-scheduler</groupId>
+			<artifactId>quartz-jobs</artifactId>
+			<version>2.2.1</version>
+		</dependency>
+		
+		<!-- JCronTab -->
+		<dependency>  
+			<groupId>org.jcrontab</groupId>
+			<artifactId>Jcrontab</artifactId>
+			<version>2.0-RC0</version>
+			<scope>system</scope>
+			<systemPath>C:\work\workspace\study\src\main\resources\libs\Jcrontab-2.0-RC0.jar</systemPath>
+		</dependency>
+		<dependency>  
+			<groupId>org.xerces</groupId>
+			<artifactId>xerces</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>C:\work\workspace\study\src\main\resources\libs\xerces.jar</systemPath>
+		</dependency>
+	</dependencies>
+
+</project>

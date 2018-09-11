@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <!DOCTYPE crontab SYSTEM "crontab.dtd"> -->
+<crontab>
+	<crontabentry id="0">
+		<seconds>0</seconds>
+		<minutes>*</minutes>
+		<hours>*</hours>
+		<daysofmonth>*</daysofmonth>
+		<months>*</months>
+		<daysofweek>*</daysofweek>
+		<years>*</years>
+		<bussinesdays>true</bussinesdays>
+		<startDate>null</startDate>
+		<endDate>null</endDate>
+		<class>study.schedule.jcrontab.NumTest</class>
+		<method>main</method>
+		<description>null</description>
+	</crontabentry>
+	<crontabentry id="1">
+		<seconds>0</seconds>
+		<minutes>*</minutes>
+		<hours>*</hours>
+		<daysofmonth>*</daysofmonth>
+		<months>*</months>
+		<daysofweek>*</daysofweek>
+		<years>*</years>
+		<bussinesdays>true</bussinesdays>
+		<startDate>null</startDate>
+		<endDate>null</endDate>
+		<class>study.schedule.jcrontab.LetterTest</class>
+		<method>main</method>
+		<description>null</description>
+	</crontabentry>
+	<crontabentry id="2">
+		<seconds>0</seconds>
+		<minutes>*</minutes>
+		<hours>*</hours>
+		<daysofmonth>*</daysofmonth>
+		<months>*</months>
+		<daysofweek>*</daysofweek>
+		<years>*</years>
+		<bussinesdays>true</bussinesdays>
+		<startDate>null</startDate>
+		<endDate>null</endDate>
+		<class>org.jcrontab.NativeExec</class>
+		<method>main</method>
+		<parameters>net send 192.168.0.109 "你好！每一分钟出现一次！呵呵"</parameters>
+		<description>null</description>
+	</crontabentry>
+</crontab>
